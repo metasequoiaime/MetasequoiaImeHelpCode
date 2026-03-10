@@ -17,3 +17,5 @@ git clone https://github.com/fanlumaster/MetasequoiaImeHelpCode.git
 Remove-Item "C:\Users\SonnyCalcr\AppData\Local\MetasequoiaImeTsf\helpcode.txt" -Force
 New-Item -ItemType SymbolicLink -Path "C:\Users\SonnyCalcr\AppData\Local\MetasequoiaImeTsf\helpcode.txt" -Target "C:\Users\SonnyCalcr\EDisk\CppCodes\IMECodes\MetasequoiaImeHelpCode\helpcode.txt"
 ```
+
+Note: here we must use absolute path.
