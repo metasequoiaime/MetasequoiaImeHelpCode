@@ -1,11 +1,11 @@
 # FanImeHelpCode
 
-Helpcodes for [MetasequoiaImeTsf](https://github.com/fanlumaster/MetasequoiaImeTsf).
+Helpcodes for [MetasequoiaImeTsf](https://github.com/metasequoiaime/MetasequoiaImeTsf).
 
 For debug:
 
 ```shell
-git clone https://github.com/fanlumaster/MetasequoiaImeHelpCode.git
+git clone https://github.com/metasequoiaime/MetasequoiaImeHelpCode.git
 Remove-Item "C:\Users\<username>\AppData\Local\MetasequoiaImeTsf\helpcode.txt" -Force
 New-Item -ItemType SymbolicLink -Path "C:\Users\<username>\AppData\Local\MetasequoiaImeTsf\helpcode.txt" -Target ".\MetasequoiaImeHelpCode\helpcode.txt"
 ```
@@ -13,7 +13,7 @@ New-Item -ItemType SymbolicLink -Path "C:\Users\<username>\AppData\Local\Metaseq
 e.g.
 
 ```shell
-git clone https://github.com/fanlumaster/MetasequoiaImeHelpCode.git
+git clone https://github.com/metasequoiaime/MetasequoiaImeHelpCode.git
 Remove-Item "C:\Users\SonnyCalcr\AppData\Local\MetasequoiaImeTsf\helpcode.txt" -Force
 New-Item -ItemType SymbolicLink -Path "C:\Users\SonnyCalcr\AppData\Local\MetasequoiaImeTsf\helpcode.txt" -Target "C:\Users\SonnyCalcr\EDisk\CppCodes\IMECodes\MetasequoiaImeHelpCode\helpcode.txt"
 ```
